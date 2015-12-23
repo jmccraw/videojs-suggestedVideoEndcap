@@ -14,11 +14,20 @@
   display: block;
 }
 .vjs-suggested-video-endcap-container {
+  -webkit-align-content: center;
   align-content: center;
+  -webkit-align-items: baseline;
   align-items: baseline;
+  display: -webkit-flex;
+  display: -ms-flex;
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 .vjs-suggested-video-endcap-header {
