@@ -11,8 +11,8 @@ Recirculation is important for increasing page views and disseminating your vide
 This plugin requires [Video.js](https://github.com/videojs/video.js) and was created with version 5.4.4.
 
 1. Install [Video.js](https://github.com/videojs/video.js)
-2. Add the videojs-suggestedVideoEndcap CSS to your page
-3. Add the videojs-suggestedVideoEndcap JavaScript to your page
+2. Add the [videojs-suggestedVideoEndcap](https://github.com/jmccraw/videojs-suggestedVideoEndcap/blob/master/videojs.suggestedVideoEndcap.css) CSS to your page
+3. Add the [videojs-suggestedVideoEndcap](https://github.com/jmccraw/videojs-suggestedVideoEndcap/blob/master/videojs.suggestedVideoEndcap.js) JavaScript to your page
 4. Initialize the plugin with some related endcap content in JSON format
 5. Test to see that, after the video ends, the related endcap appears with your related content
 
