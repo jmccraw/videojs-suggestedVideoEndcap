@@ -19,7 +19,7 @@ This plugin requires [Video.js](https://github.com/videojs/video.js) and was cre
 ### Example
 Below is a sample use case. Feel free to add the videojs-suggestedVideoEndcap CSS/JS to your own project how you see fit. Separated here as an example.
 
-```
+```html
 <link rel="stylesheet" href="videojs-suggestedVideoEndcap">
 <video id="my-video" data-setup="{}" preload="auto" controls">
   <source src="my-video.mp4">
