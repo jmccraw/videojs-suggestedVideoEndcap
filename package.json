@@ -1,0 +1,24 @@
+{
+  "name": "videojs-suggestedvideoendcap",
+  "version": "1.0.0",
+  "description": "Video.js plugin to display a grid of suggested content after a video plays.",
+  "main": "videojs.suggestedVideoEndcap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmccraw/videojs-suggestedVideoEndcap.git"
+  },
+  "keywords": [
+    "videojs",
+    "endcap",
+    "videojs-plugin"
+  ],
+  "author": "Justin McCraw <jmccraw1+suggestedVideoEndcap@gmail.com> (http://twitter.com/justinmccraw)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmccraw/videojs-suggestedVideoEndcap/issues"
+  },
+  "homepage": "https://github.com/jmccraw/videojs-suggestedVideoEndcap#readme"
+}
