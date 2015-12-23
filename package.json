@@ -1,6 +1,6 @@
 {
   "name": "videojs-suggestedvideoendcap",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Video.js plugin to display a grid of suggested content after a video plays.",
   "main": "videojs.suggestedVideoEndcap.js",
   "scripts": {
