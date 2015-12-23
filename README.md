@@ -10,6 +10,8 @@ Recirculation is important for increasing page views and disseminating your vide
 ### Usage
 This plugin requires [Video.js](https://github.com/videojs/video.js) and was created with version 5.4.4.
 
+It also uses [flexbox](http://caniuse.com/flexbox).
+
 1. Install [Video.js](https://github.com/videojs/video.js)
 2. Add the [videojs-suggestedVideoEndcap](https://github.com/jmccraw/videojs-suggestedVideoEndcap/blob/master/videojs.suggestedVideoEndcap.css) CSS to your page
 3. Add the [videojs-suggestedVideoEndcap](https://github.com/jmccraw/videojs-suggestedVideoEndcap/blob/master/videojs.suggestedVideoEndcap.js) JavaScript to your page
@@ -50,3 +52,8 @@ Below is a sample use case. Feel free to add the videojs-suggestedVideoEndcap CS
   });
 </script>
 ```
+
+### Notes
+The CSS needs updating to conform to the size of your given media player. Currently, it's set up for a rather large implementation and truncated in the code for this case. Should also be extended for media queries, but that's a more case-by-case level.
+
+Let me know if you run into any bugs or recommendations.
