@@ -1,0 +1,44 @@
+.vjs-suggested-video-endcap {
+  background: rgba(0, 0, 0, .7);
+  display: none;
+  height: 95%;
+  left: 0;
+  overflow: hidden;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.vjs-suggested-video-endcap.is-active {
+  display: block;
+}
+.vjs-suggested-video-endcap-container {
+  align-content: center;
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.vjs-suggested-video-endcap-header {
+  font: 700 16px/1 Arial, sans-serif;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.vjs-suggested-video-endcap-link {
+  font: 400 18px/1 Arial, sans-serif;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  position: relative;
+  width: 23%;
+}
+.vjs-suggested-video-endcap-link:nth-of-type(4n),
+.vjs-suggested-video-endcap-link:last-of-type {
+  margin-right: 0;
+}
+.vjs-suggested-video-endcap-img {
+  height: auto;
+  margin-bottom: 5px;
+  width: 100%;
+}
