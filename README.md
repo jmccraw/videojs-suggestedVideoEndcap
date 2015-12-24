@@ -5,7 +5,7 @@ ____
 ### Purpose
 Recirculation is important for increasing page views and disseminating your videos. This Suggested Video Endcap looks to offer such a solution. By displaying a grid of suggested video content, a la YouTube, users may be more inclined to stay on your site and click around to content, not necessarily just videos.
 
-![Suggested Video Endcap Screenshot](https://lh3.googleusercontent.com/u5gF5JVBM2VkMjYJmc1-M2lffMjh3XhjpLwMe57rT94KG1j08EmG-xPTuI3UXvLqDWlkAobajp9a1EZ29i4W7ydSfLskoBjk20LSE4DHcZL8_uavM7LmErM8a-Z-YxY6i9cOqAzXrz8Tkp9T0cLE-UfyNkSO_y-NKqE77u-vpdtLJC3nZZR-QztPfoGSFWDEDtbOZioCt5NQYGHImqkvvB2Ulms3XRirdi_vqhV9FmtkW-drc5KyMdN4tSK9MXzB7ZlYy82BzQEWbrnuLOs01HvqkiUQLBXhRUjfAtxw5V7ifegOpyI9d-7iHunnkT3aSRmbE7qolgJO31vyvV_guhnB1S56BH43PuKGjTQdMxs_NNYETM3ZGwd-V5ub2XENaR3hCaXx8dWk3Btms0uRe_I_2ZrGnbaMImE3Wg1jiNvYtzA4Es2MVu6gAR8z82yfTePwti20vlvXQ2lGsjMuXypFTEgqM6EdZXOamTlA0wK5LO1Y9jtYZxdnpwh4eAZwsdKaUrFKn4Y3ZbJPug-IQzMKbobJ-ol0QVTTuamXpxqG1WurZnQnsHpT19aYhzzM58SU=w1040-h593-no)
+![Suggested Video Endcap Screenshot](https://lh3.googleusercontent.com/-9W5CiLk-t0c/VnwQESr9-0I/AAAAAAAAGKE/Ja841qexZyc/s800-Ic42/suggestedVideoEndcap.png)
 
 ### Usage
 This plugin requires [Video.js](https://github.com/videojs/video.js) and was created with version 5.4.4.
@@ -54,6 +54,6 @@ Below is a sample use case. Feel free to add the videojs-suggestedVideoEndcap CS
 ```
 
 ### Notes
-The CSS needs updating to conform to the size of your given media player. Currently, it's set up for a rather large implementation and truncated in the code for this case. Should also be extended for media queries, but that's a more case-by-case level.
+The CSS needs updating to conform to the size of your given media player and to add things like transitions and other effects. Currently, it's set up for a rather large implementation and truncated in the code for this case. Should also be extended for media queries, but that's a more case-by-case level.
 
 Let me know if you run into any bugs or recommendations.
