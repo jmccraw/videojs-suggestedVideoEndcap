@@ -22,12 +22,12 @@ It also uses [flexbox](http://caniuse.com/flexbox).
 Below is a sample use case. Feel free to add the videojs-suggestedVideoEndcap CSS/JS to your own project how you see fit. Separated here as an example.
 
 ```html
-<link rel="stylesheet" href="videojs-suggestedVideoEndcap">
+<link rel="stylesheet" href="videojs-suggestedVideoEndcap.css">
 <video id="my-video" data-setup="{}" preload="auto" controls">
   <source src="my-video.mp4">
   <source src="my-video.webm">
 </video>
-<script src="videojs-suggestedVideoEndcap"></script>
+<script src="videojs-suggestedVideoEndcap.js"></script>
 <script>
   'use strict';
   
