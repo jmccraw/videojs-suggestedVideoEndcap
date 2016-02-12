@@ -81,6 +81,9 @@
 
     player.ready(function() {
       constructSuggestedVideoEndcapContent();
+      if (opts.callback) {
+        opts.callback();
+      }
     });
 
 
