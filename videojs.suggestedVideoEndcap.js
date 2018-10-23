@@ -1,6 +1,6 @@
 /**
  * Video.js Suggested Video Endcap
- * Created by Justin McCraw for New York Media LLC
+ * Created by Justin McCraw
  * License information: https://github.com/jmccraw/videojs-suggestedVideoEndcap/blob/master/LICENSE
  * Plugin details: https://github.com/jmccraw/videojs-suggestedVideoEndcap
  */
@@ -8,7 +8,7 @@
 (function(videojs) {
   'use strict';
 
-  videojs.plugin('suggestedVideoEndcap', function(opts) {
+  videojs.registerPlugin('suggestedVideoEndcap', function(opts) {
     opts = opts || {
         header: 'You may also like…',
         suggestions: [
@@ -75,7 +75,9 @@
     // attach VideoJS event handlers
     player.on('ended', function() {
       _sve.classList.add('is-active');
-    }).on('play', function() {
+    });
+
+    player.on('play', function() {
       _sve.classList.remove('is-active');
     });
 
