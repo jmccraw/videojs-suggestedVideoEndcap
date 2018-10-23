@@ -8,7 +8,7 @@ Recirculation is important for increasing page views and disseminating your vide
 ![Suggested Video Endcap Screenshot](https://lh3.googleusercontent.com/-9W5CiLk-t0c/VnwQESr9-0I/AAAAAAAAGKE/Ja841qexZyc/s800-Ic42/suggestedVideoEndcap.png)
 
 ### Usage
-This plugin requires [Video.js](https://github.com/videojs/video.js) and was created with version 5.4.4.
+This plugin requires [Video.js](https://github.com/videojs/video.js) and was created with version 7.2.
 
 It also uses [flexbox](http://caniuse.com/flexbox).
 
@@ -22,12 +22,12 @@ It also uses [flexbox](http://caniuse.com/flexbox).
 Below is a sample use case. Feel free to add the videojs-suggestedVideoEndcap CSS/JS to your own project how you see fit. Separated here as an example.
 
 ```html
-<link rel="stylesheet" href="videojs-suggestedVideoEndcap.css">
-<video id="my-video" data-setup="{}" preload="auto" controls">
+<link rel="stylesheet" href="videojs.suggestedVideoEndcap.css">
+<video id="my-video" data-setup="{}" preload="auto" controls>
   <source src="my-video.mp4">
   <source src="my-video.webm">
 </video>
-<script src="videojs-suggestedVideoEndcap.js"></script>
+<script src="videojs.suggestedVideoEndcap.js"></script>
 <script>
   'use strict';
   
